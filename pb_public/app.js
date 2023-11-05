@@ -1,5 +1,5 @@
-const USERNAME = "ADMIN_EMAIL";
-const PASSWORD = "ADMIN_PASSWORD";
+const USERNAME = "kponting82@csu.fullerton.edu";
+const PASSWORD = "Password123";
 import PocketBase from "https://cdnjs.cloudflare.com/ajax/libs/pocketbase/0.19.0/pocketbase.es.js";
 const pb = new PocketBase("http://127.0.0.1:8090");
 const authData = await pb.admins.authWithPassword(USERNAME, PASSWORD);
